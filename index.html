@@ -17,13 +17,13 @@
         //read operator
         const operator = prompt('Enter Method (+,-,/,*)');
         let result = 0;
-        if (operator == '+') {
+        if (operator === '+') {
             result = num1 + num2;
-        } else if (operator == '-') {
+        } else if (operator === '-') {
             result = num1 - num2;
-        } else if (operator == '/') {
+        } else if (operator === '/') {
             result = num1 / num2;
-        } else if (operator == '*') {
+        } else if (operator === '*') {
             result = num1 * num2;
         }
         document.write(num1 + operator + num2 + '=' + result)
