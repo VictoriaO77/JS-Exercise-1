@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Exercise 1</title>
 </head>
+
 <body>
 
-<script>
-    //read numbers in the program
-    const num1 = prompt('Enter First Number: ');
-    const num2 = prompt('Enter Second Number: ');
-    //read operator
-    const operator = prompt('Enter Method (+,-,/,*)');
-    let result = 0;
-        if(operator == '+') {
+    <script>
+        //read numbers in the program
+        const num1 = prompt('Enter First Number: ');
+        const num2 = prompt('Enter Second Number: ');
+        //read operator
+        const operator = prompt('Enter Method (+,-,/,*)');
+        let result = 0;
+        if (operator == '+') {
             result = num1 + num2;
-        } else if(operator == '-') {
+        } else if (operator == '-') {
             result = num1 - num2;
-        } else if(operator == '/') {
+        } else if (operator == '/') {
             result = num1 / num2;
         } else if (operator == '*') {
             result = num1 * num2;
         }
-    
-</script>
+        document.write(num1 + operator + num2 + '=' + result)
+    </script>
 
-    
+
 </body>
+
 </html>
